@@ -1,0 +1,2 @@
+../gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-g++ -std=c++14 -mcpu=cortex-m3 -mthumb -Wall -g3 -O0 -I../STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Include -I../STM32Cube_FW_F1_V1.4.0/Drivers/CMSIS/Device/ST/STM32F1xx/Include -c system_stm32f1xx.c -o system_stm32f1xx.o 
+Makefile:23: recipe for target 'system_stm32f1xx.o' failed

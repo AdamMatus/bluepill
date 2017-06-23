@@ -1,0 +1,20 @@
+../gcc-arm-none-eabi-6-2017-q1-update/bin/arm-none-eabi-g++ -std=c++14 -mcpu=cortex-m3 -mthumb -Wl,--gc-sections -T ./startup_stm32f103xb.o ./system_stm32f1xx.o ./main.o -g3 -O0 -o main.elf
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\177' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\001' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\001' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\001' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\000' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\000' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\000' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\000' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\000' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\000' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\000' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\000' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\000' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\001' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: ignoring invalid character `\000' in expression
+/home/psioxolex/workspace/bluepill/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/bin/ld:./startup_stm32f103xb.o:1: syntax error
+collect2: error: ld returned 1 exit status
+Makefile:17: recipe for target 'main.elf' failed
+make: *** [main.elf] Error 1
